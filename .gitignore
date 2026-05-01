@@ -2,4 +2,4 @@
 !.gitignore
 !.config/
 !.config/hypr/
-!.config/hypr/*
+!.config/hypr/**
