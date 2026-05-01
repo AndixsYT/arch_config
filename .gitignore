@@ -3,3 +3,11 @@
 !.config/
 !.config/hypr/
 !.config/hypr/**
+!.config/cwal/
+!.config/cwal/**
+
+!Pictures/
+!Pictures/**
+
+!Scripts/
+!Scripts/**

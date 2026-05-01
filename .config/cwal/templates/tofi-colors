@@ -1,0 +1,3 @@
+selection-color = {color1.strip}
+text-cursor-color = {color1.strip}
+text-color = {color15.strip}
