@@ -31,6 +31,7 @@ hl.config({
 
 hl.env("XCURSOR_SIZE", "40")
 hl.env("HYPRCURSOR_SIZE", "40")
+hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
 
 hl.config({
 	dwindle = {

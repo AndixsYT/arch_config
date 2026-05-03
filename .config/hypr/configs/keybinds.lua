@@ -46,6 +46,8 @@ hl.bind(mainMod .. " + S", hl.dsp.workspace.toggle_special("spotify"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:spotify" }))
 hl.bind(mainMod .. " + D", hl.dsp.workspace.toggle_special("discord"))
 hl.bind(mainMod .. " + SHIFT + D", hl.dsp.window.move({ workspace = "special:discord" }))
+hl.bind(mainMod .. " + T", hl.dsp.workspace.toggle_special("telegram"))
+hl.bind(mainMod .. " + SHIFT + T", hl.dsp.window.move({ workspace = "special:telegram" }))
 
 -- Mouse movements
 hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))

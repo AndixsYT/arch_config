@@ -45,6 +45,7 @@ hl.window_rule({
 
 hl.workspace_rule({ workspace = "special:discord", on_created_empty = "vesktop" })
 hl.workspace_rule({ workspace = "special:spotify", on_created_empty = "spotify-launcher" })
+hl.workspace_rule({ workspace = "special:telegram", on_created_empty = "Telegram" })
 
 hl.window_rule({
 	match = {
