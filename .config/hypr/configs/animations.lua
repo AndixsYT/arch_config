@@ -8,10 +8,13 @@ hl.config({
 		gaps_in = 5,
 		gaps_out = 20,
 
-		border_size = 2,
+		border_size = 3,
 
 		col = {
-			active_border = { colors = { "rgba(33ccffee)", "rgba(00ff99ee)" }, angle = 45 },
+			-- --- $CWAL_START ---
+active_border = { colors = { "rgba(233,97,78,1.0)", "rgba(226,137,122,1.0)" }, angle = 45 },
+
+			-- --- $CWAL_END ---
 			inactive_border = "rgba(595959aa)",
 		},
 
@@ -25,7 +28,7 @@ hl.config({
 	},
 
 	decoration = {
-		rounding = 10,
+		rounding = 0,
 		rounding_power = 2,
 
 		-- Change transparency of focused and unfocused windows
