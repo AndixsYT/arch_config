@@ -1,0 +1,22 @@
+[icon]
+globs = []
+dirs  = [
+	{ name = ".config", text = "", fg = "{color12.hex}" },
+	{ name = ".git", text = "", fg = "{color12.hex}" },
+	{ name = ".github", text = "", fg = "{color12.hex}" },
+	{ name = ".npm", text = "", fg = "{color12.hex}" },
+	{ name = "Desktop", text = "", fg = "{color12.hex}" },
+	{ name = "Development", text = "", fg = "{color12.hex}" },
+	{ name = "Documents", text = "", fg = "{color12.hex}" },
+	{ name = "Downloads", text = "", fg = "{color12.hex}" },
+	{ name = "Library", text = "", fg = "{color12.hex}" },
+	{ name = "Movies", text = "", fg = "{color12.hex}" },
+	{ name = "Music", text = "", fg = "{color12.hex}" },
+	{ name = "Pictures", text = "", fg = "{color12.hex}" },
+	{ name = "Public", text = "", fg = "{color12.hex}" },
+	{ name = "Videos", text = "", fg = "{color12.hex}" },
+]
+
+conds = [
+	{ if = "dir", text = "", fg = "{color12.hex}" },
+]
