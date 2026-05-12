@@ -43,14 +43,31 @@ hl.window_rule({
 	no_focus = true,
 })
 
-hl.workspace_rule({ workspace = "special:discord", on_created_empty = "vesktop" })
-hl.workspace_rule({ workspace = "special:spotify", on_created_empty = "spotify-launcher" })
-hl.workspace_rule({ workspace = "special:telegram", on_created_empty = "Telegram" })
+hl.workspace_rule({ workspace = "special:discord", no_shadow = true, on_created_empty = "vesktop" })
+hl.workspace_rule({ workspace = "special:spotify", no_shadow = true, on_created_empty = "spotify-launcher" })
+hl.workspace_rule({ workspace = "special:telegram", no_shadow = true, on_created_empty = "Telegram" })
 
 hl.window_rule({
 	match = {
-		class = "kitty",
+		class = "Spotify",
 	},
 	opacity = "0.8 override 0.8 override",
-	xray = "1",
+	workspace = "special:spotify",
+	no_initial_focus = true,
+})
+
+hl.window_rule({
+	match = {
+		class = "vesktop",
+	},
+	workspace = "special:discord",
+	no_initial_focus = true,
+})
+
+hl.window_rule({
+	match = {
+		class = "telegram",
+	},
+	workspace = "special:telegram",
+	no_initial_focus = true,
 })
