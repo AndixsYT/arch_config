@@ -1,0 +1,15 @@
+[TokyoNight]
+;https://github.com/enkia/tokyo-night-vscode-theme
+accent             = {color6.strip}
+accent-active      = {color6.strip}
+accent-inactive    = 1a1b26
+banner             = {color6.strip}
+border-active      = {color6.strip}
+border-inactive    = 24283b
+header             = 565f89
+highlight          = 24283b
+main               = {color0.strip}
+notification       = 7aa2f7
+notification-error = f7768e
+subtext            = 565f89
+text               = a9b1d6
