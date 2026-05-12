@@ -1,2 +1,2 @@
-active_border = { colors = { "{color3.rgba}", "{color6.rgba}" }, angle = 45 },
+active_border = { colors = { "{color6.rgba}", "{color3.rgba}" }, angle = 45 },
 
