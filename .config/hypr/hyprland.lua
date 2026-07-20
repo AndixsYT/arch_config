@@ -1,7 +1,7 @@
-require("configs/keybinds")
-require("configs/autostart")
-require("configs/animations")
-require("configs/general")
+require("config.keybinds")
+require("config.autostart")
+require("config.animations")
+require("config.general")
 
 ------------------
 ---- MONITORS ----
@@ -43,8 +43,8 @@ hl.window_rule({
 	no_focus = true,
 })
 
-hl.workspace_rule({ workspace = "special:discord", no_shadow = true, on_created_empty = "vesktop" })
-hl.workspace_rule({ workspace = "special:spotify", no_shadow = true, on_created_empty = "spotify-launcher" })
+hl.workspace_rule({ workspace = "special:discord", no_shadow = true, on_created_empty = "discord" })
+hl.workspace_rule({ workspace = "special:spotify", no_shadow = true, on_created_empty = "spicetify watch -s" })
 hl.workspace_rule({ workspace = "special:telegram", no_shadow = true, on_created_empty = "Telegram" })
 
 hl.window_rule({

@@ -12,7 +12,7 @@ hl.config({
 
 		col = {
 			-- --- $CWAL_START ---
-			active_border = { colors = { "rgba(149,128,86,0.8)", "rgba(168,151,96,0.8)" }, angle = 45 },
+active_border = { colors = { "rgba(174,92,133,0.8)", "rgba(80,51,94,0.8)" }, angle = 45 },
 
 			-- --- $CWAL_END ---
 			inactive_border = "rgba(595959aa)",

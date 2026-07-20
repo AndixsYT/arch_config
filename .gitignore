@@ -5,6 +5,11 @@
 !.config/hypr/**
 !.config/cwal/
 !.config/cwal/**
+!.config/spicetify/
+!.config/spicetify/Themes/
+!.config/spicetify/Themes/text
+!.config/Vencord/
+!.config/Vencord/**
 
 !Pictures/
 !Pictures/**
