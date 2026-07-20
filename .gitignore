@@ -9,7 +9,8 @@
 !.config/spicetify/Themes/
 !.config/spicetify/Themes/text
 !.config/Vencord/
-!.config/Vencord/**
+!.config/Vencord/themes/
+!.config/Vencord/themes/system24.theme.css
 
 !Pictures/
 !Pictures/**
