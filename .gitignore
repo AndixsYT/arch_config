@@ -12,6 +12,8 @@
 !.config/Vencord/
 !.config/Vencord/themes/
 !.config/Vencord/themes/system24.theme.css
+!.config/tofi/
+!.config/tofi/config
 
 !Pictures/
 !Pictures/**
