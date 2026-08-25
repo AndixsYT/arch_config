@@ -14,6 +14,15 @@
 !.config/Vencord/themes/system24.theme.css
 !.config/tofi/
 !.config/tofi/config
+!.config/nvim
+!.config/nvim/**
+.config/nvim/nvim-pack-lock.json
+!.config/yazi
+!.config/yazi/**
+!.config/cava
+!.config/cava/**
+!.config/fastfetch
+!.config/fastfetch/**
 
 !Pictures/
 !Pictures/**
