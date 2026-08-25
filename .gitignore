@@ -1,5 +1,6 @@
 *
 !.gitignore
+
 !.config/
 !.config/hypr/
 !.config/hypr/**
@@ -23,6 +24,10 @@
 !.config/cava/**
 !.config/fastfetch
 !.config/fastfetch/**
+!.config/fish
+!.config/fish/config.fish
+!.config/kitty
+!.config/kitty/kitty.conf
 
 !Pictures/
 !Pictures/**
